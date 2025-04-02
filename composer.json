@@ -1,0 +1,70 @@
+{
+    "name": "lara-zeus/torch-filament",
+    "description": "Infolist layout component to highlight code using Torchlight Engine",
+    "keywords": [
+        "laravel",
+        "lara-zeus",
+        "ui",
+        "code",
+        "highlight",
+        "Torchlight",
+        "Engine",
+        "design",
+        "input",
+        "filamentphp"
+    ],
+    "homepage": "https://larazeus.com/torch-filament",
+    "support": {
+        "issues": "https://github.com/lara-zeus/torch-filament/issues",
+        "source": "https://github.com/lara-zeus/torch-filament"
+    },
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lara Zeus",
+            "email": "info@larazeus.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^3.0",
+        "spatie/laravel-package-tools": "^1.16",
+        "torchlight/engine": "^0.1.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0",
+        "nunomaduro/collision": "^7.0",
+        "larastan/larastan": "^2.0",
+        "nunomaduro/phpinsights": "^2.8",
+        "orchestra/testbench": "^8.0",
+        "phpstan/extension-installer": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaraZeus\\TorchFilament\\": "src"
+        }
+    },
+    "scripts": {
+        "analyse": "vendor/bin/phpstan analyse",
+        "format": "vendor/bin/pint",
+        "pint": "vendor/bin/pint",
+        "test:phpstan": "vendor/bin/phpstan analyse"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpstan/extension-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaraZeus\\TorchFilament\\TorchFilamentServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

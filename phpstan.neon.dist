@@ -1,0 +1,14 @@
+includes:
+    - phpstan-baseline.neon
+
+parameters:
+    level: 6
+    paths:
+        - src
+
+    checkOctaneCompatibility: true
+    checkModelProperties: true
+
+    ignoreErrors:
+        -
+            identifier: missingType.iterableValue
