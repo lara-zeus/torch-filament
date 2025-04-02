@@ -16,12 +16,16 @@ composer require lara-zeus/torch-filament
 ```php
 TorchEntry::make('code')
     ->columnSpanFull()
+    // set the theme, optional, the default is github theme
     ->theme([
-        'light'=>'everforest-light',
-        'dark'=>'everforest-dark',
+        'light' => 'everforest-light',
+        'dark' => 'everforest-dark',
     ])
+    // add Gutter for line numbers and (-+) marks
     //->withGutter(false)
+    // add a wrapper 
     //->withWrapper(true)
+    // code language
     //->grammar('php')
     ->state(<<<'PHP'
         echo "Hello, world!";
