@@ -5,16 +5,28 @@ weight: 3
 
 ## Installation
 
-Install @zeus list group by running the following commands in your Laravel project directory.
+Install @zeus Torch Filament by running the following commands in your Laravel project directory.
 
 ```bash
-composer require lara-zeus/list-group
+composer require lara-zeus/torch-filament
 ```
 
-## theme
+## Usage
 
-add this path to your tailwind config file in the `content` array
-
-```js
-'./vendor/lara-zeus/list-group/resources/views/**/*.blade.php',
+```php
+TorchEntry::make('code')
+    ->columnSpanFull()
+    ->theme([
+        'light'=>'everforest-light',
+        'dark'=>'everforest-dark',
+    ])
+    //->withGutter(false)
+    //->withWrapper(true)
+    //->grammar('php')
+    ->state(<<<'PHP'
+        echo "Hello, world!";
+        echo "Hello, world! I am focused"; // [tl! focus]
+        echo "Hello, world! Added"; // [tl! ++]
+        echo "Hello, world! Deleted"; // [tl! --]
+    PHP),
 ```

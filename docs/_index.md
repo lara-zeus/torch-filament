@@ -1,7 +1,7 @@
 ---
 title: v1
-slogan: filamentphp infolist layout component to group items with links, icons and badges
-githubUrl: https://github.com/lara-zeus/list-group
+slogan: filamentphp infolist component to highlight code using Torchlight Engine
+githubUrl: https://github.com/lara-zeus/torch-filament
 branch: v1.x
-icon: tabler-list-details
+icon: tabler-code
 ---
