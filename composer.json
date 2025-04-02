@@ -1,6 +1,6 @@
 {
     "name": "lara-zeus/torch-filament",
-    "description": "Infolist layout component to highlight code using Torchlight Engine",
+    "description": "Infolist component to highlight code using Torchlight Engine",
     "keywords": [
         "laravel",
         "lara-zeus",

@@ -2,7 +2,7 @@
 <a href="https://larazeus.com"><img src="https://larazeus.com/images/lara-zeus-torch-filament.webp" /></a>
 </p>
 
-<h4 align="center">Infolist layout component to highlight code using Torchlight Engine</h4>
+<h4 align="center">Infolist component to highlight code using Torchlight Engine</h4>
 
 <p align="center">
 
@@ -23,6 +23,10 @@
 ## Screenshots
 
 ![](https://larazeus.com/images/screenshots/torch-filament/torch-filament-1.webp)
+![](https://larazeus.com/images/screenshots/torch-filament/torch-filament-2.webp)
+![](https://larazeus.com/images/screenshots/torch-filament/torch-filament-3.webp)
+![](https://larazeus.com/images/screenshots/torch-filament/torch-filament-4.webp)
+![](https://larazeus.com/images/screenshots/torch-filament/torch-filament-5.webp)
 
 ## Demo
 

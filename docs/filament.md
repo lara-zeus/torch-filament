@@ -1,25 +1,27 @@
-# Zeus List Group Infolist Component
+# Zeus Torch Filament Infolist Component
 
-Infolist layout component to group items with links, icons and badges
+An infolist component to highlight code using Torchlight Engine
 
 ## Features
 
-- 🔥 pass array or a relationship
-- 🔥 customizable per item:
-  - 🔥 URL
-  - 🔥 Icon
-  - 🔥 Label
+🔥 Highlight Codes
+🔥 No node or API required
+🔥 Support annotations
+🔥 Support themes
 
 ## Screenshots
 
-![](https://larazeus.com/images/screenshots/list-group/list-group-1.webp)
-![](https://larazeus.com/images/screenshots/list-group/list-group-2.webp)
-![](https://larazeus.com/images/screenshots/list-group/list-group-3.webp)
+![](https://larazeus.com/images/screenshots/torch-filament/torch-filament-1.webp)
+![](https://larazeus.com/images/screenshots/torch-filament/torch-filament-2.webp)
+![](https://larazeus.com/images/screenshots/torch-filament/torch-filament-3.webp)
+![](https://larazeus.com/images/screenshots/torch-filament/torch-filament-4.webp)
+![](https://larazeus.com/images/screenshots/torch-filament/torch-filament-5.webp)
+
 
 ## More Details
-**✨ to learn more about List Group, please visit:**
+**✨ to learn more about Torch Filament, please visit:**
 
-- [Discord](https://discord.com/channels/883083792112300104/1282762259067703296)
-- [Docs](https://larazeus.com/docs/list-group)
-- [Github](https://github.com/lara-zeus/list-group)
-- [Demo](https://demo.larazeus.com/admin/components-demo/list-group)
+- [Discord](https://discord.com/channels/883083792112300104/1356890025962242069/1356890025962242069)
+- [Docs](https://larazeus.com/docs/torch-filament)
+- [Github](https://github.com/lara-zeus/torch-filament)
+- [Demo](https://demo.larazeus.com/admin/components-demo/torch-filament)
