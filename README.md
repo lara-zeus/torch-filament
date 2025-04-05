@@ -16,8 +16,11 @@
 ## features
 
 🔥 Highlight Codes
+
 🔥 No node or API required
+
 🔥 Support annotations
+
 🔥 Support themes
 
 ## Screenshots
