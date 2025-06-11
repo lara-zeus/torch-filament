@@ -1,4 +1,7 @@
-<div>
+<x-dynamic-component
+    :component="$getEntryWrapperView()"
+    :entry="$entry"
+>
     <style>
         html.dark code.torchlight {
             background-color: var(--phiki-dark-background-color) !important;
@@ -13,9 +16,9 @@
         }
 
         /*
-  Blur and dim the lines that don't have the `.line-focus` class,
-  but are within a code block that contains any focus lines.
-*/
+          Blur and dim the lines that don't have the `.line-focus` class,
+          but are within a code block that contains any focus lines.
+        */
         .torchlight.has-focus-lines .line:not(.line-focus) {
             transition: filter 0.35s, opacity 0.35s;
             filter: blur(.095rem);
@@ -70,20 +73,24 @@
             display: initial;
         }
     </style>
-    @php
-        $theme = $getTheme();
-        $code = $getState();
-        $gutter = $isWithGutter();
-        $wrapper = $isWithWrapper();
-        $grammar = $getGrammar();
-    @endphp
-    {!!
-        (new \Torchlight\Engine\Engine())->codeToHtml(
-            code: $code,
-            grammar: $grammar,
-            theme: $theme,
-            withGutter: $gutter,
-            withWrapper: $wrapper
-        )
-    !!}
-</div>
+
+    <div {{ $getExtraAttributeBag() }}>
+        @php
+            $theme = $getTheme();
+            $code = $getState();
+            $gutter = $isWithGutter();
+            $wrapper = $isWithWrapper();
+            $grammar = $getGrammar();
+        @endphp
+        {!!
+            (new \Torchlight\Engine\Engine())->codeToHtml(
+                code: $code,
+                grammar: $grammar,
+                theme: $theme,
+                withGutter: $gutter,
+                withWrapper: $wrapper
+            )
+        !!}
+    </div>
+
+</x-dynamic-component>

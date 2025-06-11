@@ -2,9 +2,9 @@
 
 namespace LaraZeus\TorchFilament\Infolists;
 
-use Filament\Infolists\Components\Component;
+use Filament\Infolists\Components\Entry;
 
-class TorchEntry extends Component
+class TorchEntry extends Entry
 {
     protected string $view = 'zeus-torch-filament::infolists.code';
 
@@ -18,14 +18,6 @@ class TorchEntry extends Component
     protected bool $gutter = true;
 
     protected bool $wrapper = false;
-
-    public static function make(?string $label = null): static
-    {
-        $static = app(static::class, ['label' => $label]);
-        $static->configure();
-
-        return $static;
-    }
 
     public function theme(array $theme): static
     {
