@@ -2,6 +2,10 @@
 
 All notable changes to `Torch Filament` will be documented in this file
 
+## 3.0.0 - 2026-03-10
+
+support filament 5
+
 ## 2.0.1 - 2025-10-17
 
 ### What's Changed
